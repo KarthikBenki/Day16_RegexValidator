@@ -7,7 +7,7 @@ public class RegexValidation {
 
     }
     public static void main(String[] args) {
-        boolean regexCheck = isValid("^[1-9]{1}[\\d]{5}$","400098B");
+        boolean regexCheck = isValid("^[1-9]{1}[\\d]{2}[ ]?[\\d]{3}$","400 098");
         System.out.println(regexCheck);
     }
 }
